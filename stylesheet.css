@@ -1,0 +1,71 @@
+body{
+  margin: 0px;
+
+}
+
+.heading-container{
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+}
+
+.heading{
+  font-size: 3vw;
+  display: flex;
+  flex-flow: column;
+  border: 2px solid black;
+  padding: 1vh 4vw;
+}
+
+.heading span{
+  font-size: 2vw;
+  text-align: center;
+}
+
+
+/* styling for days container */
+
+.days-container{
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.day-heading{
+  background-color: #FCFC49;
+  padding: 2vh 0px;
+  width: 10vw;
+  border-radius: 5px 0px 0px 5px;
+  border: #FCFC49 solid;
+  border-right: 0px;
+  
+}
+
+.day-content{
+  background-color: white;
+  padding: 2vh 0px;
+  border: #FCFC49 solid;
+  border-left: 0px;
+  width: 60vw;
+  
+}
+
+.day-heading,.day-content{
+  text-align: center;
+  font-size: 2.5vw;
+  font-weight: 500;
+  
+}
+
+.days-container:hover{
+  .day-content{
+   background-color:#FCFC49;
+   border-color: #A1A183;
+  }
+
+  .day-heading{
+    background-color: white;
+    border: #A1A183 solid;
+    border-right: 0px;
+  }
+}
