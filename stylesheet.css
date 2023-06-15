@@ -7,6 +7,7 @@ body{
   display: flex;
   justify-content: center;
   background-color: yellow;
+  
 }
 
 .heading{
@@ -15,6 +16,7 @@ body{
   flex-flow: column;
   border: 2px solid black;
   padding: 1vh 4vw;
+  margin: 5px auto;
 }
 
 .heading span{
@@ -67,5 +69,27 @@ body{
     background-color: white;
     border: #A1A183 solid;
     border-right: 0px;
+  }
+}
+
+
+.notice {
+  width: 100%;
+  overflow: hidden;
+}
+
+.notice h3 {
+  white-space: nowrap;
+  animation: scroll 20s linear infinite;
+  font-size:2vw;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  
+  100% {
+    transform: translateX(-100%);
   }
 }
